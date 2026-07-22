@@ -97,3 +97,11 @@ The notebook opens and executes normally in:
 - `ML_Project_NLVR2.ipynb` – Complete notebook implementation.
 
 ---
+
+## Team Members
+
+- Mithilesh Babu
+- Parvathy Rajendran Nair 
+- Joshua Rufus Mukku
+
+---

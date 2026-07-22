@@ -11,6 +11,30 @@ The project compares a traditional machine learning baseline with a state-of-the
 
 ## Dataset
 
+The original NLVR2 dataset files (`train.json` and `dev.json`) are **not included in this repository** because they exceed GitHub's file size limitations for web uploads.
+
+The dataset can be downloaded from the following Google Drive folder:
+
+**Google Drive Link:**  
+https://drive.google.com/drive/folders/1i6G_r8gqHjGzbhcIT9sGCg1uLOW2HTBu?usp=sharing
+
+After downloading:
+
+1. Place `train.json` and `dev.json` inside the following folder in Google Drive:
+
+```
+MyDrive/
+└── NLVR2_Project/
+    ├── train.json
+    └── dev.json
+```
+
+2. Open the notebook in Google Colab.
+3. Run the **Mount Google Drive** cell.
+4. Execute the remaining notebook cells.
+
+The notebook is already configured to load the dataset directly from Google Drive.
+
 - Dataset: NLVR2
 - Task: Binary Classification (True / False)
 - Input:
@@ -21,7 +45,19 @@ The project compares a traditional machine learning baseline with a state-of-the
   - False (0)
 
 ---
+## GitHub Notebook Preview
 
+GitHub may display **"Invalid Notebook"** when previewing `ML_Project_NLVR2.ipynb`.
+
+This is a GitHub notebook rendering issue and **does not affect the notebook itself**.
+
+The notebook opens and executes normally in:
+
+- Google Colab
+- Jupyter Notebook
+- JupyterLab
+
+---
 ## Models
 
 ### Baseline Model
